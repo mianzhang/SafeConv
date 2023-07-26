@@ -7,6 +7,7 @@ The splited data is in `data/`. Each line is an instance, which is a dictionary.
 
 | Key      | Meaning  |
 | -------- | -------- |
+| source   | data source; 'P' denotes [Pchatbot](https://arxiv.org/abs/2009.13284); 'L' denotes [LCCC](https://arxiv.org/abs/2008.03946)|
 | prompt   | dialogue history  |
 | response | current utterance |
 | prompt_label | binary safety label of the prompt |
