@@ -7,7 +7,7 @@ for conversational safety:
 1) binary safety label of the prompt; 
 2) binary safety label of the response; 
 3) unsafe spans in the response; 
-4) safe alternative for the unsafe responses.
+4) safe alternatives for the unsafe responses.
 
 
 ## Data
