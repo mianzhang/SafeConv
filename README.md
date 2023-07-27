@@ -1,5 +1,5 @@
 # SafeConv: Explaining and Correcting Conversational Unsafe Behavior
-Resources for our ACL 2023 SafeConv [[paper](https://aclanthology.org/2023.acl-long.2.pdf)].
+Resources for our ACL 2023 SafeConv [paper](https://aclanthology.org/2023.acl-long.2.pdf).
 
 ## What is SafeConv?
 SafeConv is a large-scale dataset (160000 prompt-response pairs) with comprehensive annotations
