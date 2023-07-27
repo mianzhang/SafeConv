@@ -1,5 +1,13 @@
-# SafeConv
-Resources for our ACL 2023 paper: "SafeConv: Explaining and Correcting Conversational Unsafe Behavior" [[paper](https://aclanthology.org/2023.acl-long.2.pdf)]
+# SafeConv: Explaining and Correcting Conversational Unsafe Behavior
+Resources for our ACL 2023 SafeConv [[paper](https://aclanthology.org/2023.acl-long.2.pdf)].
+
+## What is SafeConv?
+SafeConv is a large-scale dataset (160000 prompt-response pairs) with comprehensive annotations
+for conversational safety:
+1) binary safety label of the prompt; 
+2) binary safety label of the response; 
+3) unsafe spans in the response; 
+4) safe alternative for the unsafe responses.
 
 
 ## Data
@@ -16,7 +24,7 @@ The splited data is in `data/`. Each line is an instance, which is a dictionary.
 | rewrites | rewritten utterances |
 
 ## Cite
-You could cite our paper if you find the dataset is helpful:
+You could cite our paper if you find the dataset is helpful using this BibTeX:
 ```
 @inproceedings{zhang-etal-2023-safeconv,
     title = "{S}afe{C}onv: Explaining and Correcting Conversational Unsafe Behavior",
